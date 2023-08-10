@@ -4,11 +4,11 @@ function App() {
   const navigate = useNavigate();
   return (
     <>
-      <head>
+      <header>
         <nav onClick={() => navigate("/")}>home</nav>
         <nav onClick={() => navigate("/shop")}>shop</nav>
         <nav onClick={() => navigate("/profile")}>profile</nav>
-      </head>
+      </header>
       <Outlet />
     </>
   );
